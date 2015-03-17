@@ -10,11 +10,12 @@ namespace Cryptography
     {
         private byte[] ByteSub(byte[] state)
         {
-//wefwfw
+
             return null;
         }
         private byte[] ShiftRow(byte[] state)
         { 
+
         }
         private byte[] MixColumn(byte[] state)
         {
