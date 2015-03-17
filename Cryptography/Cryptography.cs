@@ -12,12 +12,11 @@ namespace Cryptography
         private byte[] ByteSub(byte[] state)
         {
 
-            //אמא של יונתן מכינה אחלה חריימה
+            
             return null;
         }
         private byte[] ShiftRow(byte[] state)
         {
-            Console.WriteLine("אמא של יונתן עושה אחלה סטייקים");
         }
         private byte[] MixColumn(byte[] state)
         {
