@@ -12,10 +12,12 @@ namespace Cryptography
         private byte[] ByteSub(byte[] state)
         {
             //אמא של יונתן מכינה אחלה חריימה
+
             return null;
         }
         private byte[] ShiftRow(byte[] state)
         { 
+
         }
         private byte[] MixColumn(byte[] state)
         {
