@@ -6,24 +6,9 @@ using System.Threading.Tasks;
 
 namespace Cryptography
 {
-    class Cryptography
+    interface ICryptography
     {
-
-        private byte[] ByteSub(byte[] state)
-        {
-
-            //אמא של יונתן מכינה אחלה חריימה
-            return null;
-        }
-        private byte[] ShiftRow(byte[] state)
-        {
-            Console.WriteLine("אמא של יונתן עושה אחלה סטייקים");
-        }
-        private byte[] MixColumn(byte[] state)
-        {
-        }
-        private byte[] AddRoundKey(byte[] state, byte key)
-        { 
-        }
+        byte[] Encrypt(string data);
+        string Decrypt(byte[] data);
     }
 }
