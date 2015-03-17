@@ -6,23 +6,9 @@ using System.Threading.Tasks;
 
 namespace Cryptography
 {
-    class Cryptography
+    interface ICryptography
     {
-
-        private byte[] ByteSub(byte[] state)
-        {
-
-            //dfds
-            return null;
-        }
-        private byte[] ShiftRow(byte[] state)
-        {
-        }
-        private byte[] MixColumn(byte[] state)
-        {
-        }
-        private byte[] AddRoundKey(byte[] state, byte key)
-        { 
-        }
+        byte[] Encrypt(string data);
+        string Decrypt(byte[] data);
     }
 }
